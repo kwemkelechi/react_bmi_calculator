@@ -1,0 +1,62 @@
+body{
+    width: full-width;
+    background: lightblue;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.label {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: #ffffff;
+    width: 10%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.formfield {
+    border: 3px solid blueviolet;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px 10px;
+}
